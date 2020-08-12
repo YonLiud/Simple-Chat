@@ -12,16 +12,21 @@ namespace Server
     {
         public Server()
         {
-            EventHandlers["serverTweet"] += new Action<string, string>(serverTweet);
-            EventHandlers["serverAction"] += new Action<string, string>(serverAction);
+            EventHandlers["serverTweet"] += new Action<string, string>(ServerTweet);
+            EventHandlers["serverAction"] += new Action<string, string>(ServerAction);
+            EventHandlers["serverOOC"] += new Action<string, string>(ServerOOC);
         }
-        private void serverTweet(string name, string args)
+        private void ServerTweet(string name, string args)
         {
             TriggerClientEvent("clientTweet", name, args);
         }
-        private void serverAction(string name, string args)
+        private void ServerAction(string name, string args)
         {
             TriggerClientEvent("clientAction", name, args);
+        }
+        private void ServerOOC(string name, string args)
+        {
+            TriggerClientEvent("clientOOC", name, args);
         }
     }
 }
