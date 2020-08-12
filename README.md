@@ -3,6 +3,12 @@
 Simple Chat is a C# Script for [FiveM](https://fivem.net/).
 
 Simple Chat will allow the player in your server to communicate with Tweeter! and will be able to display their actions and even talk Out Of Character! using the "Simple Chat" Script!
+
+## Download
+
+[Click Here To Download](https://github.com/YonLiud/Simple-Chat/releases)
+
+
 ## Installation
 
 
