@@ -18,7 +18,7 @@ Simple Chat will allow the player in your server to communicate with Tweeter! an
 ```
 start sChat
 ```
-2) Drag and drop the `EC` Folder into ``..\FXServer\server-data\resources\``
+2) Drag and drop the `sChat` Folder into ``..\FXServer\server-data\resources\``
 
 3) Restart your server
 
